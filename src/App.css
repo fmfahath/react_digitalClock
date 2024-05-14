@@ -6,5 +6,42 @@
 }
 
 body {
-  background-color: #888;
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #e4eef5 0%, #c0c3f5 100%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  color: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container div {
+  margin-top: 10px;
+}
+
+.container h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.time {
+  font-size: 100px;
+}
+
+.date {
+  font-size: 20px;
+  margin-bottom: 20px;
 }
